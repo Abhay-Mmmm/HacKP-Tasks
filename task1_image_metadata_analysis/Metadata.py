@@ -3,9 +3,8 @@ import cv2
 import pytesseract
 import exiftool
 
-# --- CONFIG ---
 exiftool_path = r"C:\Users\Abhay\OneDrive\Desktop\HacKP-Tasks\task1_image_metadata_analysis\exiftool.exe"
-image_path = r"C:\Users\Abhay\OneDrive\Desktop\HacKP-Tasks\task1_image_metadata_analysis\dataset\4.jpg"
+image_path = r"C:\Users\Abhay\OneDrive\Desktop\HacKP-Tasks\task1_image_metadata_analysis\dataset\5.jpg"
 
 # --- METADATA EXTRACTION ---
 with exiftool.ExifTool(exiftool_path) as et:
